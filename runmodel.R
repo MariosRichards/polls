@@ -11,7 +11,7 @@ library(curl)
 library(shinystan)
 library(rmarkdown)
 
-setwd("~/GitHub/polls")
+#setwd("~/GitHub/polls")
 
 ####################
 # Useful functions #
@@ -441,4 +441,5 @@ last_polls <- df %>%
 rm(out)
 rm(p)
 save.image("out.RData")
+detach("package:purrr", unload=TRUE) # because no longer needed and creates conflict with maps
 render("report.Rmd")
