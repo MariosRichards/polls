@@ -14,7 +14,7 @@ Twitter: [`@pakremp`](http://twitter.com/pakremp)
 
 
 ```{r echo=FALSE, message=FALSE}
-setwd("~/GitHub/polls")
+#setwd("~/GitHub/polls")
 knitr::read_chunk('graphs.R')
 ```
 

@@ -16,5 +16,5 @@ install.packages("ggplot2")
 install.packages("DT")
 install.packages("mvtnorm")
 install.packages("reshape2")
-
+install.packages("ggrepel") # added recently
 install.packages("rstan", repos = "https://cloud.r-project.org/", dependencies=TRUE)
